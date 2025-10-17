@@ -55,7 +55,7 @@ def grade_from_score(total_score, max_score):
         return 'F'
 
 def main():
-    print("Welcome to the SAT Luck Challenge!")
+    print("Welcome to Luck Examination 2!")
     print("You will play several games, and your scores will be added up and graded like the SAT.")
     print("-" * 50)
 
@@ -77,7 +77,7 @@ def main():
         total_score += guess_number_score(i + 1, guess_points[i])
         print("-" * 50)
 
-    print(f"Your total SAT Luck Score is: {total_score} out of {max_score}")
+    print(f"Your total Luck Score is: {total_score} out of {max_score}")
     grade = grade_from_score(total_score, max_score)
     print(f"Equivalent Grade: {grade}")
 
