@@ -1,7 +1,7 @@
 import random
 
 def roll_score():
-    score = random.randint(400, 1600)
+    score = random.randint(0, 1600)
     print(f"Random Roll: You scored {score} points!")
     return score
 
